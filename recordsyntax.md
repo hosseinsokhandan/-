@@ -1,17 +1,27 @@
 # Record Syntax
+It is an alternative way to write data types.
+
+
+### Why
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Readability counts.
+- Automatic built-in look-up functions.
+
 
 ### Example
 
 Definition:
-```hs
-ghci> data Car = Car {company :: String, model :: String, year :: Int} deriving (Show)
 
+```hs
+data Car = Car String String Int deriving (Show)
+data Car = Car {company :: String, model :: String, year :: Int} deriving (Show)
 ```
 
 
 Making a new car:
 ```hs
-ghci> Car {company="Ford", model="Mustang", year=1967}
+Car {company="Ford", model="Mustang", year=1967}
 
 ```
 
