@@ -6,6 +6,7 @@ I have gathered all the information for my personal purposes, for credits see [r
 - [Types and Typeclasses]()
 	- [Record syntax](https://github.com/pycub/haskell/blob/main/recordsyntax.md)
  	- [Derived instances](https://github.com/pycub/haskell/blob/main/derivedinstances.md)
+	- [Some notes regarding types and typeclasess](https://github.com/pycub/haskell/blob/main/typenotes.md)
 
 
 ### Refrences
